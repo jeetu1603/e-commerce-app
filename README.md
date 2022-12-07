@@ -14,13 +14,13 @@
 | /api/users/stats | GET | get users stats |
 
 **products Route**
-| Endpoint | Method | Description |
-|-------------------------|--------|-----------------|
-| /api/users/:userId | PUT | update a user |
-| /api/users/:userId | DELETE | delete a user |
-| /api/users/find/:userId | GET | get a user |
-| /api/users/ | GET | get all users |
-| /api/users/stats | GET | get users stats |
+| Endpoint                                                            | Method | Description                                                      |
+|---------------------------------------------------------------------|--------|------------------------------------------------------------------|
+| /api/products                                                       | POST   | create a product                                                 |
+| /api/products/:productId                                            | PUT    | update a product                                                 |
+| /api/products/:productId                                            | DELETE | delete a order                                                   |
+| /api/orders/find/:productId                                         | GET    | get a single product                                             |
+| /api/products?new=[]<br>/api/products?category=[]<br>/api/products/ | GET    | get new products<br>get products by category<br>get all products |
 
 **carts Route**
 | Endpoint | Method | Description |
